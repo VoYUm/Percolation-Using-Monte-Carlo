@@ -19,4 +19,4 @@ number of open sites: 17, percolation probability: 86.0%
 number of open sites: 18, percolation probability: 92.0%  
 number of open sites: 19, percolation probability: 96.0%  
 number of open sites: 20, percolation probability: 100.0%  
-Percolation threshold:60.0  
+Percolation threshold: 60.0  
