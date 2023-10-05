@@ -10,13 +10,13 @@
 number of open sites: 9, percolation probability: 2.0%  
 number of open sites: 10, percolation probability: 5.0%  
 number of open sites: 11, percolation probability: 13.0%  
-number of open sites: 12, percolation probability: 15.0%
-number of open sites: 13, percolation probability: 23.0%
-number of open sites: 14, percolation probability: 43.0%
-number of open sites: 15, percolation probability: 55.0%
-number of open sites: 16, percolation probability: 66.0%
-number of open sites: 17, percolation probability: 86.0%
-number of open sites: 18, percolation probability: 92.0%
-number of open sites: 19, percolation probability: 96.0%
-number of open sites: 20, percolation probability: 100.0%
-Percolation threshold:60.0
+number of open sites: 12, percolation probability: 15.0%  
+number of open sites: 13, percolation probability: 23.0%  
+number of open sites: 14, percolation probability: 43.0%  
+number of open sites: 15, percolation probability: 55.0%  
+number of open sites: 16, percolation probability: 66.0%  
+number of open sites: 17, percolation probability: 86.0%  
+number of open sites: 18, percolation probability: 92.0%  
+number of open sites: 19, percolation probability: 96.0%  
+number of open sites: 20, percolation probability: 100.0%  
+Percolation threshold:60.0  
