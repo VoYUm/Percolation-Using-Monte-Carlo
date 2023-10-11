@@ -6,7 +6,7 @@ public class Perc {
     //amortized running time inverse ackermann
     public Perc(int n) {
         // default constructor, all points unopened
-        if (n <= 0) throw new IllegalArgumentException("fuck you bitch");
+        if (n <= 0) throw new IllegalArgumentException("invalid side length");
         grid = new boolean[n][n];
         sideLength = n;
         for (int i = 0; i < n; ++i) {
@@ -26,7 +26,7 @@ public class Perc {
 
     public Perc(int n, int numOpen) {
         //constructor initializes a grid of sideLength n with numOpen points opened at random
-        if (n <= 0) throw new IllegalArgumentException("fuck you bitch");
+        if (n <= 0) throw new IllegalArgumentException("invalid side length");
         grid = new boolean[n][n];
         sideLength = n;
         for (int i = 0; i < n; ++i) {
@@ -59,7 +59,7 @@ public class Perc {
     public void open(int row, int col) {
         // open a single point in grid
         if (row <= 0 || row > sideLength || col <= 0 || col > sideLength) {
-            throw new IllegalArgumentException("pussycat");
+            throw new IllegalArgumentException("invalid site");
         }
         grid[row - 1][col - 1] = true;
         if (col - 2 >= 0 && grid[row - 1][col - 2])
@@ -75,13 +75,13 @@ public class Perc {
 
     public boolean isOpen(int row, int col) {
         //check if a single point in grid is open
-        if (row <= 0 || row > sideLength || col <= 0 || col > sideLength) throw new IllegalArgumentException("pussy");
+        if (row <= 0 || row > sideLength || col <= 0 || col > sideLength) throw new IllegalArgumentException("invalid site");
         return grid[row - 1][col - 1];
     }
 
     public boolean isFull(int row, int col) {
         //check if a single point is open and percolated (full)
-        if (row <= 0 || row > sideLength || col <= 0 || col > sideLength) throw new IllegalArgumentException("pussy");
+        if (row <= 0 || row > sideLength || col <= 0 || col > sideLength) throw new IllegalArgumentException("invalid site");
         return isConnected((row - 1) * sideLength + col - 1, sideLength * sideLength);
     }
 
